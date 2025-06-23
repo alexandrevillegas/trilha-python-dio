@@ -11,13 +11,13 @@ cupom = input().strip()
 
 # TODO: Aplique o desconto se o cupom for válido:
 if cupom == "DESCONTO10":
-  preco = (preco*0.90)
-  preco_final = "{:.2f}".format(preco)
-  print(preco_final)
+    preco = (preco*0.90)
+    preco_final = "{:.2f}".format(preco)
+    print(preco_final)
 elif cupom == "DESCONTO20":
-  preco = (preco*0.80)
-  preco_final = "{:.2f}".format(preco)
-  print(preco_final)
+    preco = (preco*0.80)
+    preco_final = "{:.2f}".format(preco)
+    print(preco_final)
 else:
-  preco_final = "{:.2f}".format(preco)
-  print(preco_final)
+    preco_final = "{:.2f}".format(preco)
+    print(preco_final)
